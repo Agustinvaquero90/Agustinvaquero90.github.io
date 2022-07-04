@@ -1,0 +1,338 @@
+/* selector {
+    Propiedad valor;
+} */
+* {
+ padding:0px;
+border:0px;
+box-sizing: border-box;
+} 
+body{
+    background: rgb(192, 191, 191);
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+#pagina-entera {
+    background-color:rgb(192, 191, 191); 
+    padding-left: 20px;
+    
+}
+#Encabezado {
+    background-color: rgb(192, 191, 191);
+   
+}
+#Encabezado .logocoder {
+    background-color: rgb(192, 191, 191);
+    padding-top: 20px;
+}
+#Encabezado .links ul  li a {
+   text-decoration: none;
+   color:black;
+text-align: center;
+}
+
+#Encabezado .links ul  li {
+    list-style: none;
+    text-align: center;
+}
+#pie-pagina {
+    background-color: rgb(192, 191, 191);
+}
+#pie-pagina .logoyvideo a {
+text-decoration: none;
+color: black;
+}
+#Encabezado .logocoder h1{
+    font-size: xx-large;
+}
+.BoxModel40 ul li  {
+    display: inline-block;
+  padding-left: 40px;
+  margin-left: 20px;
+  height: 30px;
+  width: 140px;
+  border: solid 3px black;
+  background-color: brown;
+  border-radius: 10px;
+  
+}
+.BoxModel40 ul li a {
+   text-decoration: none;
+   color: white;
+   font-family: sans-serif;
+   text-align:center;
+}
+.logocoder {
+    display:inline-flex;}
+
+#backgroundImagenes { /* <!---home--->*/
+    background-color:brown;
+    font-family: sans-serif;
+} 
+#backgroundImagenes .boxModel {
+    background-color: rgb(16, 154, 157);
+ width: 600px;
+ height: 180px;
+ margin-left: 20px; 
+ 
+ display: inline-block;
+}
+.progress {
+    width: 50%;
+    border: 2px solid black;
+   margin-top: 10px;
+    
+}
+ .texto-progress h5 {
+    text-align: center;
+    color: white;
+}
+.position-absolute__content {
+    left: 310px;
+    position: absolute;
+   bottom: -25px;
+    transform: translate(-50%, -50%);
+  }
+
+/*Fin*/
+.progress {
+    
+    width: 400px;
+    height: auto;
+    margin-left: 20px; 
+  display: flex;
+  
+}
+#backgroundImagenes .boxModel {
+    border: 7px solid black;
+    border-radius: 10px;
+}
+#backgroundImagenes .boxModel h2 {
+   color: rgb(255, 255, 255);
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 60px;
+}
+
+#backgroundImagenes .boxModel p{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;}
+    
+#backgroundImagenes .promos-comida-imgagen img{
+   border: 10px solid black;
+   margin-left: 20px;
+   margin-bottom: 15px;
+   border-radius: 10px;
+   
+  
+}
+
+#backgroundImagenes2 {  /*productos*/
+    background-color:brown;
+    font-family: sans-serif;
+    width: 100%;
+    
+}
+.BoxModel2 {
+   display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  margin-right: 40px;
+  background-color: brown;
+}
+.BoxModel2 img {
+   width: 95%
+}
+#backgroundImagenes2 {
+    padding-left: 20px ;
+    font-size: 25px;
+    margin-left: 10px; 
+    text-align: center;
+    
+}
+#backgroundImagenes2 .BoxModel2 img {
+
+    border: 7px solid black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+ }
+ 
+ #backgroundImagenes3 { /*Acerca de nosotros*/
+    background-color: brown;
+    font-family: sans-serif;
+    margin: 20px 20px 20px 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.BoxModel3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    margin-right: 40px;
+}
+
+.BoxModel3{
+    width: 100%;
+    
+}
+#backgroundImagenes3 .BoxModel3 img {
+    border: 7px solid black;
+    margin-left: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+#backgroundImagenes3 .BoxModel3 h1 {
+padding-left: 30px;
+padding-top: 10px;
+}
+    
+#backgroundImagenes5 { /*Sucursales*/
+   
+    font-family: sans-serif;
+    margin:20px 20px 20px 20px;
+    width:100%;
+    padding-left: 10px;
+    font-size: 20px;
+background-color: brown;
+}
+
+#backgroundImagenes5 .BoxModel5 img {
+    border: 7px solid black;
+    margin: 20px 20px 20px;
+    border-radius: 10px;
+    background-color: brown;
+   
+}
+.BoxModel5 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    margin-right: 40px;
+   
+}
+.BoxModel5{
+    width: 100%;
+
+    
+}
+
+
+#backgroundImagenes5 .BoxModel5 h1 {
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+    padding-top: 20px;
+}
+
+input {
+    width: 150px;
+    transition: all 1s;
+}
+input:focus {
+width: 100%;
+height: 100px;
+background-color: aqua;
+color: black;
+font-size: 30px;
+}
+
+@media (max-width: 600px) { /*aca intente meter esto en algun lado...*/
+.BoxModel40  {
+background-color:firebrick;
+}
+}
+@media (max-width: 600px) { /* media queries  del home*/
+.promos-comida-imgagen img {
+     width: 340px;
+
+}
+}
+@media (min-width: 700px) and (max-width:1350px){
+    .promos-comida-imgagen img {
+         width: 300px;
+         height: 300px;
+    
+    }
+    }
+   
+    @media (min-width: 600px) and (max-width:700px){
+        .promos-comida-imgagen  {
+             width: 300px;
+             height: 300px;
+        }
+        }
+    /* 2.0 */
+    @media (max-width: 600px) { /* media queries  de nosotros*/
+        .BoxModel3 img {
+             width: 340px;
+        
+        }
+        }
+        @media (min-width: 700px) and (max-width:1350px){
+            .BoxModel3 img {
+                 width: 300px;
+                 height: 300px;
+            
+            }
+            }
+           
+            @media (min-width: 600px) and (max-width:700px){
+                .BoxModel3 img {
+                     width: 300px;
+                     height: 300px;
+                
+                }
+                }
+ #cuadrado {
+    background-image: url(../ImagenesProyectoCoder/123.jpeg);
+    width: 300px;
+    height: 300px;
+    
+    
+    animation-name: mianimacion;
+    position: relative;
+   animation-direction: reverse;
+   animation-timing-function: ease;
+   animation-iteration-count: infinite;
+    animation-duration: 4s ;
+    animation-delay: 1s;
+ }
+
+ @keyframes mianimacion{
+            0% {left: 0;top :0px}
+            25%{ left:100%;top:0px}
+             50%{ left:100%;top:0px}
+             75% {left:0px;top:0px;}
+             100%{left:0px;top:0px}      
+        }
+/*<h2>Promociones de la semana</h2>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolore.</p> <!--descripcion breve-->*/
+  #cuadrado2 {
+    background-image: url(../ImagenesProyectoCoder/cervezas\ 2x1.jfif);
+    width: 300px;
+    height: 300px;
+    
+    
+    animation-name: mianimacion2;
+    position: relative;
+   animation-direction: reverse;
+   animation-timing-function: ease;
+   animation-iteration-count: infinite;
+    animation-duration: 4s ;
+    animation-delay: 1s;
+ }
+
+ @keyframes mianimacion2 {
+    0% {left: 0;top :0px}
+    25%{ left:50%;top:0px}
+     50%{ left:50%;top:0px}
+     75% {left:0px;top:0px;}
+     100%{left:0px;top:0px}      
+}
